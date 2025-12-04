@@ -1,0 +1,12 @@
+# --- Ignoră complet datele grele ---
+data/
+
+# --- Ignoră mediul virtual și fișierele temporare ---
+mediu_proiect/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- (Opțional) Dacă vrei să ignori și modelul antrenat dacă e prea mare ---
+# models/

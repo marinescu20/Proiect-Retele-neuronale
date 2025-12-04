@@ -1,0 +1,8 @@
+Biblioteca,Rolul în cadrul Proiectului (SIA)
+TensorFlow & Keras,"Nucleul Sistemului. Utilizate pentru construirea, compilarea și antrenarea Rețelei Neuronale Convoluționale (CNN). Keras a facilitat definirea straturilor (Conv2D, MaxPool, Dense, Dropout), iar TensorFlow a gestionat calculele tensorilor pe backend."
+NumPy,Procesare Numerică. Esențială pentru manipularea matricială a imaginilor. A permis transformarea imaginilor în array-uri multidimensionale și normalizarea valorilor pixelilor (de la 0-255 la 0-1) pentru optimizarea antrenării.
+Scikit-learn,"Data Management. Utilizată în etapa de preprocesare pentru împărțirea riguroasă a setului de date (train_test_split) în seturi de antrenare și validare, asigurând o stratificare corectă a claselor."
+OpenCV (cv2),"Computer Vision & Real-Time. Motorul modulului de detecție live. Permite accesarea camerei web, preluarea fluxului video (frame-by-frame), desenarea zonei de interes (ROI) și afișarea predicțiilor în timp real pe ecran."
+Pillow (PIL),"Manipulare Imagini. Utilizată pentru încărcarea inițială a datelor brute din format .png, redimensionarea uniformă la 30x30 pixeli și generarea de date sintetice (augmentare) prin ajustări de luminozitate și blur."
+Matplotlib,Vizualizare Date. Folosită pentru generarea graficelor de performanță (curbele de Acuratețe și Loss) și pentru vizualizarea distribuției claselor în setul de date (EDA).
+Pandas,"Manipulare Date Tabulare. Utilizată pentru citirea și gestionarea fișierelor de metadate (.csv), facilitând accesul la denumirile și ID-urile claselor de semne rutiere."
